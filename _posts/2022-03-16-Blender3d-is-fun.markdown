@@ -1,7 +1,9 @@
+---
 layout: post
 title: "Blender is Fun"
 date: 2022-03-16 21:23:00 -0000
 categories: graphic-design
+---
 
 # Blender is Fun
 
