@@ -23,7 +23,7 @@ email: careerforma@gmail.com
 description: I blog about programming and graphic design, I am interested in Python, Java, Blender 3d.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: @heyImHasan
+twitter_username: heyImHasan
 github_username:  hasan-aga
 show_excerpts: true
 
