@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Blender is Fun"
-date: 2022-03-16 21:23:00 -0000
+date: 2022-03-16
 categories: graphic-design
 ---
 
