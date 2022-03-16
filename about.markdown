@@ -10,7 +10,7 @@ Hi,
 My name is **Hasan** and I decided to create my own blog. I have a blog on [Medium](https://hasan-alsulaiman.medium.com/) and I
 love it's simplicity, but I feel that having my own blog is more useful. I plan on blogging about programming and graphic design. I love making things and both programming and graphic design revolve around creating things.
 
-I am from [Iraq]([Google Haritalar](https://www.google.com/maps/place/Iraq/@33.1402482,39.2240649,6z/data=!3m1!4b1!4m5!3m4!1s0x1557823d54f54a11:0x6da561bba2061602!8m2!3d33.223191!4d43.679291)) and I currently reside in Turkiye. I have studied Communication Engineering  and I am interested in network virtualization.
+I am from Iraq and I currently reside in Turkiye. I have studied Communication Engineering  and I am interested in network virtualization.
 
 ## Favourite Programming Languages
 
