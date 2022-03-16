@@ -26,6 +26,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: heyImHasan
 github_username:  hasan-aga
 show_excerpts: true
+permalink: /:categories/:year-:month-:day-:title:output_ext
 
 # Build settings
 remote_theme: broccolini/swiss
