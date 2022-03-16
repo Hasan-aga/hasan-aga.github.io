@@ -28,7 +28,7 @@ github_username:  hasan-aga
 show_excerpts: true
 
 # Build settings
-theme: minima
+remote_theme: broccolini/swiss
 plugins:
   - jekyll-feed
 
