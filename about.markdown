@@ -39,4 +39,4 @@ Genrally speaking I like any movie directed by David Fincher or Christopher Nola
 
 # If you ever run into me, do say hi
 
-![this is me]({{"assets/me.jpg"}})
+![this is me](assets/me.jpg)
