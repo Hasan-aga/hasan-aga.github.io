@@ -39,4 +39,4 @@ Genrally speaking I like any movie directed by David Fincher or Christopher Nola
 
 # If you ever run into me, do say hi
 
-<img title="" src="file:///home/hasan/playground/git/Blog/hasan-aga.github.io/20181204_090140.jpg" alt="20181204_090140.jpg" width="326" data-align="center">
+<img title="" src="file:///home/hasan/playground/git/Blog/hasan-aga.github.io/_site/assets/img/me.jpg" alt="me.jpg" width="382" data-align="center">
