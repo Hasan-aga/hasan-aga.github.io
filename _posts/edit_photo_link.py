@@ -11,7 +11,7 @@ def correctLink(line:str)->str:
     except ValueError as ve:
         print("could not find 'img/', returning same link")
         return line
-    correctImageLink = f"![](/assets/{line[indexOfImageName::]})"
+    correctImageLink = f"![](/assets/{line[indexOfImageName::]}"
     return correctImageLink
 
 def processFile(filename:str):

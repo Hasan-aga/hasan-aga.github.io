@@ -13,7 +13,11 @@ Avoid repeating your code
 )
 Have you ever needed to compare the performance of two methods? the easiest way is to log the execution time of each method, you probably end up with something like this:
 
+{% gist a73c8cfaa798736636dea84c4ee08fc5 smallLog.java %}
+
 but if you wanted to compare more than two methods the process gets ugly as you end up repeating yourself:
+
+{% gist a73c8cfaa798736636dea84c4ee08fc5 uglyLog.java %}
 
 in this article I will explain a better way.
 
@@ -25,23 +29,35 @@ it would be better if we can write a method that **takes as argument another met
 
 A _functional interface_ is an interface that contains **one and only one** abstract method.
 
+{% gist a73c8cfaa798736636dea84c4ee08fc5 functionalIF.java %}
+
 because it has only one method, it means we can implement this interface using a lambda, or we can use method referencing.
 
 #### Java Method Referencing
 
 As the name suggests, method referencing is the process of passing a reference of a method to be stored in a variable, for the above interface, the type of the variable will be _MyFunctional_ and here is how we do it:
 
+{% gist a73c8cfaa798736636dea84c4ee08fc5 method$Func.java %}
+
 first we create a **static** method that matches the signature of the abstract method in our interface
 
 and then we put the reference in a variable as follows:
 
+{% gist a73c8cfaa798736636dea84c4ee08fc5 methodRef.java %}
+
 similarly, we can pass a method reference to a method that accepts an argument of type _MyFunctional_
 
+{% gist a73c8cfaa798736636dea84c4ee08fc5 logtime.java %}
+
 and we can call the above method as follows:
+
+{% gist a73c8cfaa798736636dea84c4ee08fc5 logtimeDemo.java %}
 
 #### Putting it all together
 
 what’s left is to add time logging to our _logTime_ method, and it ends up like this:
+
+{% gist a73c8cfaa798736636dea84c4ee08fc5 allTogether.java %}
 
 #### Small Improvements
 
@@ -51,7 +67,11 @@ in this case we will use **_BiFunction<T,U,R>_** since it fits _myAdd’s_ signa
 
 using **_BiFunction<T,U,R>_** our code will look like this:
 
+{% gist a73c8cfaa798736636dea84c4ee08fc5 biFunc.java %}
+
 so now, every time we want to log a method that accepts two Integer arguments and returns an Integer result we can simply pass it to the _log_ method above as follows
+
+{% gist a73c8cfaa798736636dea84c4ee08fc5 notUgly.java %}
 
 #### Extra note
 
