@@ -34,8 +34,10 @@ BRISK is a feature point detection and description algorithm with scale invarian
 to illustrate I will use the following two images:
 
 ![](/assets/1__k02cVMqiaUJBVkmrUF58VQ.jpeg)
-)![](/assets/1__SaRtd0__7M8jmKsyY0GcpzQ.jpeg)
-)
+![](/assets/1__SaRtd0__7M8jmKsyY0GcpzQ.jpeg)
+
+{% gist 125f06fdba38f5f04e745a8f6d7556f6 %}
+
 #### Explanation
 
 we need to compute feature points on both images, these are points the algorithm finds interesting.
@@ -72,10 +74,15 @@ raw\_matches = matcher.knnMatch(desc1, trainDescriptors = desc2, k = 2)
 
 FLANN is a matcher object, it will give us matches that may contain some inaccuracy, to eliminate inaccurate points we use Low’s ratio test, here I’ve made a function for that
 
+{% gist 9d3989402bddfbc4ff432f4fba8fa50a %}
+
 I also want to draw a bounding box around the detected object, I will do this using Homography, simply put, I will project the borders of my first image on its new location in the second image, here is what that looks like
 
+
 ![](/assets/1__mLIMuhr__hhYP18TGGjpMoA.jpeg)
-)
+
 I have made a function to do homography, here is what it looks like:
+
+{% gist 55a60c18766d0d30ba6b05e0110ed493 %}
 
 You can find the entire code [here](https://github.com/Hasan-Alsulaiman/BRISK-matching), most of it is self-explanatory, but if you have a question feel free to ask me.
