@@ -59,19 +59,13 @@ _note that if you are using large images this may take more time so consider res
 
 now to the fun part, we match the two images,
 ```python
-FLANN\_INDEX\_LSH    = 6
-
-flann\_params= dict(algorithm = FLANN\_INDEX\_LSH,
-
-table\_number = 6, _\# 12_
-
-key\_size = 12,     _\# 20_
-
-multi\_probe\_level = 1) _#2_
-
-matcher = cv.FlannBasedMatcher(flann\_params, {})
-
-raw\_matches = matcher.knnMatch(desc1, trainDescriptors = desc2, k = 2)
+FLANN_INDEX_LSH    = 6
+flann_params= dict(algorithm = FLANN_INDEX_LSH,
+table_number = 6, # 12
+key_size = 12,     # 20
+multi_probe_level = 1) #2
+matcher = cv.FlannBasedMatcher(flann_params, {})
+raw_matches = matcher.knnMatch(desc1, trainDescriptors = desc2, k = 2)
 ```
 FLANN is a matcher object, it will give us matches that may contain some inaccuracy, to eliminate inaccurate points we use Low’s ratio test, here I’ve made a function for that
 
