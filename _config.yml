@@ -45,8 +45,6 @@ plugins:
   - jekyll-feed
   - jekyll-gist
   
-whilelist:
-  - jekyll-gist
 
 # Exclude from processing.
 # The following items will not be processed, by default.

@@ -44,7 +44,7 @@ we need to compute feature points on both images, these are points the algorithm
 
 detector = cv.BRISK\_create()
 
-```python
+```Python
 kp1, desc1 = detector.detectAndCompute(img1, None)
 ```
 we initiate a detector object, and use it to compute the features and descriptors of each point, descriptors will help us match the points between the images, here is the results of the first step
@@ -58,7 +58,7 @@ and the same for image 2
 _note that if you are using large images this may take more time so consider resizing your image._
 
 now to the fun part, we match the two images,
-```python
+```Python
 FLANN_INDEX_LSH    = 6
 flann_params= dict(algorithm = FLANN_INDEX_LSH,
 table_number = 6, # 12
