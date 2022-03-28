@@ -29,6 +29,7 @@ show_excerpts: true
 permalink: /:categories/:year-:month-:day-:title:output_ext
 social_link: twitter
 social_username: heyimhasan
+google_analytics:G-40NYXBH6D3
 # Jekyll 3 now only supports Kramdown for Markdown
 kramdown:
   # Use GitHub flavored markdown, including triple backtick fenced code blocks
