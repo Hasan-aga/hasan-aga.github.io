@@ -8,6 +8,7 @@ categories: []
 keywords: []
 slug: >-
   /@hasan-alsulaiman/disable-keyboard-light-timeout-on-acer-nitro-machines-566a4b2cbfd1
+comments: true
 ---
 
 I recently bought a laptop from Acer, specifically the Nitro 5 model, I like the machine but one thing I didn’t like was the keyboard, unlike most backlit keyboards, this one does not light up when you use the mouse or touchpad, which makes for a bad user experience.

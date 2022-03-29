@@ -5,6 +5,7 @@ date: '2021-09-19T17:37:52.739Z'
 categories: [java]
 keywords: [free, learn, java]
 slug: /@hasan-alsulaiman/free-interactive-programming-course-e51efac51290
+comments: true
 ---
 
 learn Java with the University of Helsinki

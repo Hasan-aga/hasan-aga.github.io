@@ -5,6 +5,7 @@ date: '2020-07-13T16:09:53.135Z'
 categories: []
 keywords: []
 slug: /@hasan-alsulaiman/ns3-the-second-step-forward-9ca17333b33
+comments: true
 ---
 
 In the last example we created a simple LAN network, now we will create something a little more convoluted.

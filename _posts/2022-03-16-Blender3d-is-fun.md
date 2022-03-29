@@ -3,6 +3,7 @@ layout: post
 title: "Blender is Fun"
 date: 2022-03-16
 categories: graphic-design
+comments: true
 ---
 
 # Blender is Fun

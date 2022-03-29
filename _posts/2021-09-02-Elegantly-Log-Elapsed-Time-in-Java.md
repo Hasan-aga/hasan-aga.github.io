@@ -5,6 +5,7 @@ date: '2021-09-02T09:43:49.344Z'
 categories: [java]
 keywords: [learn, debug, programming]
 slug: /@hasan-alsulaiman/elegantly-log-elapsed-time-in-java-aa6f91938344
+comments: true
 ---
 
 Avoid repeating your code

@@ -5,6 +5,7 @@ date: '2021-09-26T09:52:42.187Z'
 categories: []
 keywords: []
 slug: /@hasan-alsulaiman/simplify-your-code-4f781dc1b816
+comments: true
 ---
 
 Clean up nested if-statements with ease.

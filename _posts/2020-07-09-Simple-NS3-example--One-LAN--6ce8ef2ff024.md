@@ -7,6 +7,7 @@ date: '2020-07-09T17:30:00.895Z'
 categories: []
 keywords: []
 slug: /@hasan-alsulaiman/simple-ns3-example-one-lan-6ce8ef2ff024
+comments: true
 ---
 
 The NS3 is a network simulator with a steep learning curve, I’m currently learning how to use NS3 and I thought that I’d write about the things that I learn since the number of people writing about NS3 seems very little.

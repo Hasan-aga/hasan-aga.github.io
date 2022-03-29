@@ -3,7 +3,7 @@ layout: post
 title: "Feature-matching using BRISK"
 date: 2020-12-20
 categories: python
-
+comments: true
 ---
 
 an open-source alternative to SIFT

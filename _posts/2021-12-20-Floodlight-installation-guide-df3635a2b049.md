@@ -5,6 +5,7 @@ date: '2021-12-20T21:15:52.334Z'
 categories: []
 keywords: []
 slug: /@hasan-alsulaiman/floodlight-installation-guide-df3635a2b049
+comments: true
 ---
 
 a more up-to-date guide on installing the famous SDN controller
