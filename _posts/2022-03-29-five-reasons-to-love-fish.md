@@ -2,6 +2,7 @@
 layout: post
 title: "Five Reasons to Love FISH"
 categories: Linux
+comments: true
 ---
 
 A beautiful, well-built alternative to BASH, here is why you should try it.
