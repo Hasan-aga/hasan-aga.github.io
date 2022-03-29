@@ -10,8 +10,6 @@ A beautiful, well-built alternative to BASH, here is why you should try it.
 
 # What is FISH?
 
-
-
 FISH stands for **F**riendly **I**nteractive **Sh**ell. It simplifies many of the common tasks that we perform using shells such as running commands, creating *aliasis* or *environment-variables*. 
 
 # Reasons to Love FISH
@@ -30,7 +28,7 @@ To accept the autosuggestion press `→`. To accept the first suggested word, pr
 
 ## 2. Syntax Highlighting
 
-FISH interperts the command line as it is typed and highlights potential errors such as non-existing commands. It also highlights parenthesisi or quotes
+FISH interprets the command line as it is typed and highlights potential errors such as non-existing commands. It also highlights parentheses or quotes
 
 ![syntax-parenthesis.gif](/assets/syntax-parenthesis.gif)
 
