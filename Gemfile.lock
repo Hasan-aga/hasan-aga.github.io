@@ -284,6 +284,7 @@ DEPENDENCIES
   http_parser.rb (~> 0.6.0)
   jekyll-feed (~> 0.12)
   jekyll-gist
+  jekyll-seo-tag
   minima!
   tzinfo (~> 1.2)
   tzinfo-data
