@@ -285,6 +285,7 @@ DEPENDENCIES
   jekyll-feed (~> 0.12)
   jekyll-gist
   jekyll-seo-tag
+  jekyll-sitemap
   minima!
   tzinfo (~> 1.2)
   tzinfo-data
