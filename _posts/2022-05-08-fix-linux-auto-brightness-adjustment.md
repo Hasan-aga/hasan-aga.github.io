@@ -1,6 +1,12 @@
-# Fix Linux' Auto Brightness Adjustment
+---
+title: Fix Linux' Auto Brightness Adjustment
+description: prevent Linux from changing the screen brightness of your laptop when you plug it in.
+categories: [linux]
+keywords: [operating systems, maintenance, computers]
+comments: true
+---
 
-How to prevent Linux from changing the screen brightness of your laptop when you plug it in.
+prevent Linux from changing the screen brightness of your laptop when you plug it in.
 
 ---
 
