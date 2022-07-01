@@ -5,8 +5,6 @@ import sys
 # read file -> find line starting with ![] -> replace path with /assets/<filename>/<imagename>.img
 
 def handleCommandLineArgs():
-    # total arguments
-    print(len(sys.argv))
     if(len(sys.argv)<=1):
         print("no command line arguments were found!")
         return False
@@ -18,7 +16,8 @@ def handleCommandLineArgs():
 
 
 def isImageLink(line:str)-> bool:
-    return line[:3] == "![]"
+    print('is image')
+    return line[:3] == "![]" or line[:3] == "![untitled]"
 
 def correctLink(filename:str, line:str)->str:
     try:
@@ -32,7 +31,7 @@ def correctLink(filename:str, line:str)->str:
 def processFile(filename:str):
     with open(filename, 'r') as file:
         lines = file.readlines()
-    
+        print('process file')
     for lineNumber,line in enumerate(lines):
         if(isImageLink(line)):
             print("old: " + line)
@@ -46,6 +45,7 @@ def processFile(filename:str):
 def isMd(file:str)->bool:
     try:
         result = file.index(".md") or file.index(".markdown")
+        print(f"{file} is a markdown file, processing...")
         return True
     except ValueError:
         print(f"{file} is not markdown file!")
@@ -54,6 +54,7 @@ def isMd(file:str)->bool:
 
 filename = handleCommandLineArgs()
 if(filename != False and isMd(filename)):
+    print("processing...")
     processFile(filename)
 # activate the following lines for batch processing all .md files in current directory
 # filesInDir = listdir()

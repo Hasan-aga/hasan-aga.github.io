@@ -1,7 +1,8 @@
 from os import listdir
 import sys
+import re
 #run with command line arg of filename (including extention) ex python3 edit_photo_link.py filename.md
-# get list of all files in dir -> filter for .md files
+# get list of all files in dir - > filter for .md files
 # read file -> find line starting with ![] -> replace path with /assets/<filename>/<imagename>.img
 
 def handleCommandLineArgs():
@@ -16,8 +17,14 @@ def handleCommandLineArgs():
 
 
 def isImageLink(line:str)-> bool:
-    print('is image')
-    return line[:3] == "![]" or line[:3] == "![untitled]"
+    return line[:3] == "![]"
+
+def isBracketImage(line:str)->bool:
+    # regex detects ![untitled]
+    pattern = '!\[[A-Z*a-z*]*\]'
+    result = re.match(pattern, line)
+    print(result)
+    return result
 
 def correctLink(filename:str, line:str)->str:
     try:
@@ -34,6 +41,10 @@ def processFile(filename:str):
         print('process file')
     for lineNumber,line in enumerate(lines):
         if(isImageLink(line)):
+            print("old: " + line)
+            print("new: " + correctLink(filename, line))
+            lines[lineNumber] = correctLink(filename, line)
+        elif(isBracketImage(line)):
             print("old: " + line)
             print("new: " + correctLink(filename, line))
             lines[lineNumber] = correctLink(filename, line)
