@@ -1,5 +1,6 @@
 from os import listdir
 import sys
+#run with command line arg of filename (including extention) ex python3 edit_photo_link.py filename.md
 # get list of all files in dir -> filter for .md files
 # read file -> find line starting with ![] -> replace path with /assets/<filename>/<imagename>.img
 
@@ -51,7 +52,9 @@ def isMd(file:str)->bool:
         return False
 
 
-handleCommandLineArgs()
+filename = handleCommandLineArgs()
+if(filename != False and isMd(filename)):
+    processFile(filename)
 # activate the following lines for batch processing all .md files in current directory
 # filesInDir = listdir()
 # markdownFiles = []
