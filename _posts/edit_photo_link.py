@@ -23,10 +23,20 @@ def isBracketImage(line:str)->bool:
     # regex detects ![untitled]
     pattern = '!\[[A-Z*a-z*]*\]'
     result = re.match(pattern, line)
-    print(result)
-    return result
+    if(result):
+        print(f"found {result}")
+        return result
 
 def correctLink(filename:str, line:str)->str:
+    try:
+        indexOfImageName = line.index("img/") + 4
+    except ValueError as ve:
+        print("could not find 'img/', returning same link")
+        return line
+    correctImageLink = f"![](/assets/{filename}/{line[indexOfImageName::]}"
+    return correctImageLink
+
+def correctLink(filename:str, line:str, indexOfImageName:int)->str:
     try:
         indexOfImageName = line.index("img/") + 4
     except ValueError as ve:
@@ -43,7 +53,7 @@ def processFile(filename:str):
         if(isImageLink(line)):
             print("old: " + line)
             print("new: " + correctLink(filename, line))
-            lines[lineNumber] = correctLink(filename, line)
+            lines[lineNumber] = correctLink(filename, line,)
         elif(isBracketImage(line)):
             print("old: " + line)
             print("new: " + correctLink(filename, line))
