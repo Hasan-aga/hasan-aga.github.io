@@ -60,17 +60,17 @@ Please note that the above guide uses "eastus2" for the location of the virtual 
 We need to allow inbound traffic of type UDP on port 1194, we will do that using GUI
 
 After logging in to https://portal.azure.com/#home we use the top search bar to search for `resource group`
-![image](./portal.png)
+![image](../assets/2022-10-16-create-vpn-on-the-cloud/portal.png)
 From resource groups we will find the "myResourceGroup" resource group which we created using the CLI, we click on it to find the "myNSG" security group which we also created.
-![image](./security.png)
+![image](../assets/2022-10-16-create-vpn-on-the-cloud/security.png)
 From there we look at the right pane for the "inbound security rules option"
-![image](./inbound.png)
+![image](../assets/2022-10-16-create-vpn-on-the-cloud/inbound.png)
 From there we can add a new rule using the "+ Add" button and we create a rule to allow UDP at port 1194:
 
-![image](./udp.png)
+![image](../assets/2022-10-16-create-vpn-on-the-cloud/udp.png)
 
 we also need a rule to allow SSH traffic on port 22:
-![image](./ssh.png)
+![image](../assets/2022-10-16-create-vpn-on-the-cloud/ssh.png)
 
 
 ### summary
@@ -98,7 +98,7 @@ sudo IPV6_SUPPORT=y ./openvpn-install.sh
 ```
 we added IPv6 support using `IPV6_SUPPORT=y` environment variable.
 we go through the installation steps as follows:
-![image](./openvpn.png)
+![image](../assets/2022-10-16-create-vpn-on-the-cloud/openvpn.png)
 
 The result of the installation is that we'll have an openvpn server running and we also get a configuration file which we can use to setup our client machines (works on Linux, Android, Windows and Mac). that configuration file is saved in
 `/home/azureuser/first-client.ovpn` and to download it to our local machine we can use a tool like SCP:
