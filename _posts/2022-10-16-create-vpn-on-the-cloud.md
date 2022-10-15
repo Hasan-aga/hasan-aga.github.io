@@ -52,7 +52,7 @@ The CLI is installed but we are not logged in, to login we type `az login` which
 
 
 ### creating a virtual machine using CLI
-We will follow [this official guide](https://learn.microsoft.com/en-us/azure/virtual-network/ip-services/create-vm-dual-stack-ipv6-cli "create-vm-dual-stack-ipv6-cli") which is a bit general so we still have to configure our machine to allow traffic from UDP port 1194 which is where our VPN server will listen.
+We will follow [this official guide](https://learn.microsoft.com/en-us/azure/virtual-network/ip-services/create-vm-dual-stack-ipv6-cli "create-vm-dual-stack-ipv6-cli"){:target="_blank"} which is a bit general so we still have to configure our machine to allow traffic from UDP port 1194 which is where our VPN server will listen.
 
 Please note that the above guide uses "eastus2" for the location of the virtual machine. this may not be the best location for you and certainly was not the best for me as it is too far. I ended up using "francecentral".
 
