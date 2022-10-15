@@ -45,7 +45,7 @@ To install simply open a terminal on your local machine and paste:
 curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
 ```
 To confirm the installation was successful, type `az` in the terminal and you should get an output that looks like this:
-![confirmed](./az.png "cli works")
+![image](../assets/2022-10-16-create-vpn-on-the-cloud/az.png "cli works")
 
 ### logging-in
 The CLI is installed but we are not logged in, to login we type `az login` which opens a browser page where we can sign in to Azure.
