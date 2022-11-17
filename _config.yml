@@ -29,6 +29,7 @@ show_excerpts: true
 permalink: /:categories/:year-:month-:day-:title:output_ext
 social_link: twitter
 social_username: heyimhasan
+github: [metadata]
 
 # Jekyll 3 now only supports Kramdown for Markdown
 kramdown:
@@ -41,7 +42,9 @@ kramdown:
     css_class: 'highlight'
 
 # Build settings
+# remote_theme: hasan-aga/swiss@headerStyle
 remote_theme: hasan-aga/swiss
+
 plugins:
   - jekyll-feed
   - jekyll-gist
