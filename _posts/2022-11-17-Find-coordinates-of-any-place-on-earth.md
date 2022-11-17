@@ -6,7 +6,7 @@ categories: [linux, docker]
 comments: true
 ---
 
-![using a map to find places](../assets/2022-11-17-Find-coordinates-of-any-place-on-earth/map.jpg "using a map to find places")
+![using a map to find places](/assets/2022-11-17-Find-coordinates-of-any-place-on-earth/map.jpg "using a map to find places")
 
 Geocoders are applications that enable us to search for any location on the planet and get its coordinates.
 When we type the name of a restaurant into Google maps, Google's geocoder has to find the coordinates of that place and only then can the maps app take us there.
@@ -35,8 +35,6 @@ But we can still download a piece of the data, maybe for one country and play wi
 
 # Running Nominatim
 
-![using docker](../assets/2022-11-17-Find-coordinates-of-any-place-on-earth/docker.png "using docker")
-
 Firstly, we will be using a docker image of the server so you must install docker on your machine.
 Our second task is downloading a dataset that will not cause the server to swallow our RAM. luckily, the OSM data is devided by country and served on this [site](http://download.geofabrik.de/)
 
@@ -62,7 +60,7 @@ docker run -it \
 
 The above command uses `PBF_URL` argument to give the container a URL to the dataset. In this case it is the dataset of Monaco, a small country in Europe.
 
-![](../assets/2022-11-17-Find-coordinates-of-any-place-on-earth/shell.png "screen")
+![](/assets/2022-11-17-Find-coordinates-of-any-place-on-earth/shell.png "screen")
 
 The container will load the data and start the server. At that point you can use the server by way of its [API](https://nominatim.org/release-docs/latest/api/Overview/)
 
@@ -76,4 +74,4 @@ Here, we are using the `q=` argument which stands for query. we are searching fo
 
 To send this request to the server you can use a tool like Postman or simply open a browser tab and visit the above link.
 
-![](../assets/2022-11-17-Find-coordinates-of-any-place-on-earth/response.png "result")
+![](/assets/2022-11-17-Find-coordinates-of-any-place-on-earth/response.png "result")
