@@ -113,3 +113,7 @@ export default function CardButtons({ articleID }) {
 ```
 
 The above code is taken from a side project of mine so excuse the clutter.
+
+### Further reading
+
+https://felixgerschau.com/react-hooks-settimeout/
