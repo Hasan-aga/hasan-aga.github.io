@@ -8,7 +8,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 #
-# If you need help with YAML syntax, here are some quick references for you: 
+# If you need help with YAML syntax, here are some quick references for you:
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 #
@@ -20,11 +20,11 @@
 
 title: Hasan's Blog
 email: careerforma@gmail.com
-description: I blog about programming and graphic design, I am interested in Python, Java, Blender 3d.
+description: I blog about programming and graphic design, I am interested in React, Blender 3d.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: http://blog.hasan.one
 twitter_username: heyImHasan
-github_username:  hasan-aga
+github_username: hasan-aga
 show_excerpts: true
 permalink: /:categories/:year-:month-:day-:title:output_ext
 social_link: twitter
@@ -39,7 +39,7 @@ kramdown:
   syntax_highlighter: rouge
   syntax_highlighter_opts:
     # Use existing pygments syntax highlighting css
-    css_class: 'highlight'
+    css_class: "highlight"
 
 # Build settings
 # remote_theme: hasan-aga/swiss@headerStyle
@@ -50,7 +50,6 @@ plugins:
   - jekyll-gist
   - jekyll-seo-tag
   - jekyll-sitemap
-
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

@@ -16,7 +16,7 @@ Here is how to display a temporary error message or a warning in a React app usi
 
 Take a look:
 
-![react_alert.gif](../assets/2023-01-30-Display-temporary-message-using-react-hooks/react_alert.gif)
+![react_alert.gif](/assets/2023-01-30-Display-temporary-message-using-react-hooks/react_alert.gif)
 
 ## What we need
 
