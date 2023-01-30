@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "Simple Solution to CORS"
+title: "Display Temporary Mesage Using Hooks"
 date: 2023-01-27
 categories: [programming, web]
 comments: true
 ---
 
-# display temporary mesage using hooks
+# Display Temporary Mesage Using Hooks
 
-here is how to display a temporary error message or a warning in a React app using hooks and `setTimeout`
+Here is how to display a temporary error message or a warning in a React app using hooks and `setTimeout`
 
 ![https://images.unsplash.com/photo-1493787039806-2edcbe808750?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb](https://images.unsplash.com/photo-1493787039806-2edcbe808750?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb)
 
