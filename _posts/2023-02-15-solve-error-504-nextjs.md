@@ -2,7 +2,7 @@
 layout: post
 title: "Solve error 504 in NextJS"
 date: 2023-02-15
-categories: [programming]
+categories: [programming, nextjs]
 comments: true
 ---
 
@@ -11,7 +11,7 @@ comments: true
 This post provides an outline on the steps to take when facing error 504 aka serverless function timeout.
 To describe it better, when you have this error, your NextJS API endpoints will work fine in development but will not work in production.
 
-![image](../assets/2023-02-15-solve-error-504-nextjs/cat.png)
+![image](/assets/2023-02-15-solve-error-504-nextjs/cat.png)
 
 ## What causes this error?
 
