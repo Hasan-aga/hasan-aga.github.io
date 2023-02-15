@@ -2,7 +2,7 @@
 layout: post
 title: "Solve error 504 in NextJS"
 date: 2023-02-15
-categories: [programming, nextjs, supabase]
+categories: [programming]
 comments: true
 ---
 
