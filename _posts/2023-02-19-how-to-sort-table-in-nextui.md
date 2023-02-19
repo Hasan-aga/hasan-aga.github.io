@@ -14,6 +14,8 @@ A useful example on how to utilize the sorting functionality that NextUI tables 
 
 ## Overview
 
+![demo](/assets/2023-02-19-how-to-sort-table-in-nextui/sort.gif)
+
 1. Create a table following any of the [examples](https://nextui.org/docs/components/table) from the NextUI docs.
 2. Create a state to hold your data and the `sortDescriptor` object that will be used to help the sorter function.
 3. Create a function that will be used to sort your data.
