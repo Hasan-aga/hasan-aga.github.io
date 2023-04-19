@@ -10,8 +10,6 @@ A Guide to Efficiently Caching Multiple Webviews: Use a simple React hook can ca
 
 <img src="/assets/2023-04-19-using-react-hooks-to-cache-entire-web-pages/react.jpg"/>
 
-![symbolic image](/assets/2023-04-19-using-react-hooks-to-cache-entire-web-pages/react.jpg)
-
 ## Problem
 
 I was working with a react native component that renders a webview. the webview then makes an API call and fetches a bunch of medical images (dicom images). The problem was that when user switches between the patient’s medical links, it would need to re-fetch the images even if the patient was previously rendered.
