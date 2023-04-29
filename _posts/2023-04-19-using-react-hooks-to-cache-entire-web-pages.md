@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Using React Hooks to Cache Entire Web Pages"
+title: "How to cache expensive components in React"
 date: 2023-04-19
 categories: [programming, web]
 comments: true
 ---
 
-A Guide to Efficiently Caching Multiple Webviews: Use a simple React hook can cache entire webpages and improve your application's user experience.
+A Guide to Cache expensive components in React: Use a simple React hook can cache a component that takes a long time to load, and improve your application's user experience.
 
 <img src="/assets/2023-04-19-using-react-hooks-to-cache-entire-web-pages/react.jpg"/>
 
