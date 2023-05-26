@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "tools to enhance website performance"
+title: "Tools to enhance website performance"
 date: 2023-05-15
 categories: [web]
 comments: true
