@@ -20,11 +20,15 @@ Modified the line to use HTTPS instead of HTTP in the stylesheet link.
 
 before:
 
-"href="{{ "/assets/style.css" | prepend: full_base_url }}">"
+```html
+href="{{ "/assets/style.css" | prepend: full_base_url }}">
+```
 
 after:
 
-"href="{{ "/assets/style.css" | relative_url }}">"
+```html
+href="{{ "/assets/style.css" | relative_url }}">
+```
 
 The above syntax follows the conventions of "Liquid," a remote HTML templating language utilized by Jekyll. Jekyll, in turn, is a static-site engine employed by GitHub Pages.
 
