@@ -23,7 +23,7 @@ email: careerforma@gmail.com
 description: I blog about programming and graphic design, I am interested in React, Blender 3d.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: http://blog.hasan.one
-twitter_username: heyImHasan
+twitter_username: selamFromHasan
 github_username: hasan-aga
 show_excerpts: true
 permalink: /:categories/:year-:month-:day-:title:output_ext
