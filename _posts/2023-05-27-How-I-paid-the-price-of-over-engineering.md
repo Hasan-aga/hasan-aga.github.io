@@ -20,14 +20,14 @@ Modified the line to use HTTPS instead of HTTP in the stylesheet link.
 
 before:
 
-```
+```javascript
   href="{{ "/assets/style.css" | prepend: full_base_url }}">
 
 ```
 
 after:
 
-```
+```javascript
   href="{{ "/assets/style.css" | relative_url }}">
 
 ```
