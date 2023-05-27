@@ -6,7 +6,7 @@ categories: [web]
 comments: true
 ---
 
-<img src="assets/0__eNSXLy3p1aCNWJh9.jpg" alt="street signs"/>
+<img src="/assets/0__eNSXLy3p1aCNWJh9.jpg" alt="street signs"/>
 
 TLDR: my blog was hosted in once place and it was fetching its styles from a remote place (github pages can use remote themes). somewhere along the line a request to http was being made. this request gets blocked by web browser as part of the block-mixed-content policy (an https webpage can only request resources from https and not http).
 
