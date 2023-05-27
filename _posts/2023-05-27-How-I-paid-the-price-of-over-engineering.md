@@ -18,7 +18,7 @@ Accessed my remote theme repository.
 Located the specific line responsible for calling the stylesheets, which was located in `/swiss/_includes/head.html`. (Note: I am using a theme called Swiss.)
 Modified the line to use HTTPS instead of HTTP in the stylesheet link.
 
-<img src="/assets/2023-05-27-How-I-paid-the-price-of-over-engineering" alt="code snippet"/>
+<img src="/assets/2023-05-27-How-I-paid-the-price-of-over-engineering/code.png" alt="code snippet"/>
 
 The above syntax follows the conventions of "Liquid," a remote HTML templating language utilized by Jekyll. Jekyll, in turn, is a static-site engine employed by GitHub Pages.
 
