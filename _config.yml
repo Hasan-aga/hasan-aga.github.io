@@ -43,9 +43,7 @@ kramdown:
 
 # Build settings
 # remote_theme: hasan-aga/swiss@headerStyle
-remote_theme: Hasan-aga/reverie
-
-
+remote_theme: Hasan-aga/swiss
 
 plugins:
   - jekyll-feed
