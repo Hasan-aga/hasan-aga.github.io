@@ -8,11 +8,15 @@ comments: true
 
 <img src="/assets/0__eNSXLy3p1aCNWJh9.jpg" alt="street signs"/>
 
-TLDR: my blog was hosted in once place and it was fetching its styles from a remote place (github pages can use remote themes). somewhere along the line a request to http was being made. this request gets blocked by web browser as part of the block-mixed-content policy (an https webpage can only request resources from https and not http).
+TLDR: While hosting my blog in one place and fetching styles from another place (using GitHub Pages' remote themes), I encountered a problem where a request to an insecure HTTP resource was being blocked by web browsers due to the block-mixed-content policy. This policy restricts HTTPS webpages from requesting resources from insecure HTTP sources.
 
 ## Solution
 
-The solution was to go to my remote theme repo and replace the line that calls the stylesheets so it uses https intead of http in the link, in my case it was in `/swiss/_includes/head.html` (I am using a theme called swiss)
+To address this issue, I took the following steps:
+
+Accessed my remote theme repository.
+Located the specific line responsible for calling the stylesheets, which was located in `/swiss/_includes/head.html`. (Note: I am using a theme called Swiss.)
+Modified the line to use HTTPS instead of HTTP in the stylesheet link.
 
 before:
 
@@ -28,8 +32,8 @@ after:
 
 ```
 
-The above syntax is that of a remote html templating language called "Liquid" which is used by Jekyll. Jekyll is a static-site engine used by Github pages.
+The above syntax follows the conventions of "Liquid," a remote HTML templating language utilized by Jekyll. Jekyll, in turn, is a static-site engine employed by GitHub Pages.
 
-Static sites are those sites that do not fetch data from any backend. Since they do not need to fetch data, we can simply build them in advance and keep them as _static_ files on the server. Static websites are faster to load since we do not need to wait for the backend to populate the content of our website before serving it to the users.
+Static sites are websites that do not rely on fetching data from a backend. Instead, they are pre-built as static files and served directly to users. This approach offers faster loading times, as there is no need to wait for backend operations to populate the content before delivering it to users.
 
-Github pages is a service offered by Github and it only works with static websites.
+GitHub Pages, a service provided by GitHub, exclusively supports static websites.
