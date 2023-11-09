@@ -6,7 +6,7 @@ categories: [Git]
 comments: true
 ---
 
-<img src="2023-11-09-checkout-any-branch-without-needing-to-commit-or-stash-local-changes/git.jpg" alt="ai-**generated** poster"/>
+<img src="/assets/2023-11-09-checkout-any-branch-without-needing-to-commit-or-stash-local-changes/git.jpg" alt="ai-**generated** poster"/>
 
 https://git-scm.com/docs/git-worktree
 
