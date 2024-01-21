@@ -7,7 +7,9 @@ category: [mobile]
 
 <img src="/assets/2024-01-21-request-new-playstore-signing-key/android.jpg" alt="android.jpg"/>
 
-Last week, Google prompted me to make updates to my app or risk losing access to my Google Play account! The same account that I paid 25 USD for.Anyways, I have no idea where my upload keys were; so I had to create new ones and I wanted to document the process.
+Last week, Google prompted me to make updates to my app or risk losing access to my Google Play account! The same account that I paid 25 USD for. 
+
+Anyways, I have no idea where my upload keys were; so I had to create new ones and I wanted to document the process.
 
 # Requesting a new playstore signing key
 1. Go to the play developer console.
