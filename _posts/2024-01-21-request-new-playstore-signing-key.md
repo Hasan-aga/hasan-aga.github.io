@@ -21,6 +21,9 @@ By running the below command you can generate a new keystore:
 ```
 $ keytool -genkey -v -keystore my-key.keystore -alias alias_name -keyalg RSA -keysize 2048 -validity 10000
 ```
+A keystore is a way to store cryptographic keys. This is why you need to give a unique alias to your key so that it can be identified and referenced later when you sign the apk. 
+
+When you start a request for a new upload key, Google console will require you to sign your keystore and share the resulting signature (.pem file)
 ### more resources
 1. [Android: Generate Release/Debug Keystores](https://coderwall.com/p/r09hoq/android-generate-release-debug-keystores)
 2. [How To Reset Lost Upload Key on Playstore](https://mobikul.com/how-to-reset-lost-upload-key-on-playstore/)
