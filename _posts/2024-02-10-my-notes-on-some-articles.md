@@ -13,8 +13,7 @@ In this post I will share some articles that I have read along with some notes f
 
 This articles is written by the creator of the React-query library which is a library for managing remote async state in React project.
 
-https://tkdodo.eu/blog/react-query-as-a-state-manager
-
+[link to article](https://tkdodo.eu/blog/react-query-as-a-state-manager)
 React Query is great at managing async state globally in your app, if you let it. Only turn off the refetch flags if you know that make sense for your use-case, and resist the urge to sync server data to a different state manager. Usually, customizing staleTime is all you need to get a great ux while also being in control of how often background updates happen.
 
 React Query will try to keep cache data up to date by refetching at some interval.
@@ -27,8 +26,7 @@ the article discusses a fix for this which is to change the stale time and lazy 
 
 ## The const deception
 
-https://www.joshwcomeau.com/javascript/the-const-deception/
-
+[link to article](https://www.joshwcomeau.com/javascript/the-const-deception/)
 This article is written by one of the most talented web developers I know and it is about the `const` keyword in JavaScript.
 
 we must understand the distinction between assignment and mutation.
