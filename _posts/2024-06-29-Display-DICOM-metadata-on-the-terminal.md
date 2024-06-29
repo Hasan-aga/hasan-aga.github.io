@@ -19,7 +19,13 @@ A terminal file-manager is an app that makes navigating the terminal easier. Ins
 
 ## Configuring Ranger
 
-After downloading the app, head over to `~/.config/ranger` and create a `scope.sh` file then copy this sample scope.sh into it:
+After downloading the app, head over to `~/.config/ranger` then open `rc.conf` and paste these lines:
+```bash
+set use_preview_script true
+set preview_script ~/.config/ranger/scope.sh
+```
+
+and create a `scope.sh` file then copy this sample scope.sh into it:
 
 ```bash
 #!/usr/bin/env bash
