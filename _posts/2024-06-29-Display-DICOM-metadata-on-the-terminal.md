@@ -21,9 +21,6 @@ A terminal file-manager is an app that makes navigating the terminal easier. Ins
 
 After downloading the app, head over to `~/.config/ranger` and create a `scope.sh` file then copy this sample scope.sh into it:
 
-<details>
-  <summary>Click me</summary>
-  
 ```bash
 #!/usr/bin/env bash
 
@@ -535,12 +532,13 @@ exit 1
 
 ```
 
-</details>
-
 The above file is the default `scope.sh` with the following parts added to enable previewing DICOM metadata:
 
 1. The `handle_dicom` function which uses the `Pydicom` Python library to open the file and read its metadata.
 2. The `dcm` case inside `handle_extension` function
 
 Needless to say that you will need to install Pydicom on your system for this to work, you can do that using PIP or Conda.
+
+```
+
 ```
