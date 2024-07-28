@@ -99,6 +99,7 @@ Benchmark                                      (length)  Mode  Cnt   Score    Er
 fizzBuzz.FizzBuzzBenchmark.functionalFizzBuzz      1000  avgt    3   0.283 ±  1.034  ms/op
 fizzBuzz.FizzBuzzBenchmark.functionalFizzBuzz     10000  avgt    3   2.974 ±  5.636  ms/op
 fizzBuzz.FizzBuzzBenchmark.functionalFizzBuzz    100000  avgt    3  46.900 ± 42.673  ms/op
+
 fizzBuzz.FizzBuzzBenchmark.proceduralFizzBuzz      1000  avgt    3   0.073 ±  0.119  ms/op
 fizzBuzz.FizzBuzzBenchmark.proceduralFizzBuzz     10000  avgt    3   0.815 ±  0.705  ms/op
 fizzBuzz.FizzBuzzBenchmark.proceduralFizzBuzz    100000  avgt    3   9.903 ±  5.446  ms/op
