@@ -104,5 +104,5 @@ fizzBuzz.FizzBuzzBenchmark.proceduralFizzBuzz     10000  avgt    3   0.815 ±  0
 fizzBuzz.FizzBuzzBenchmark.proceduralFizzBuzz    100000  avgt    3   9.903 ±  5.446  ms/op
 ```
 
-As you can see, the cleaner, smaller functional code is much slower than the procedural code!! This was not surprising to me and it reminded me of a demo made on youtube: ["Clean" Code, Horrible Performance](https://youtu.be/tD5NrevFtbU?si=miRTsfxfUsHI1voC)
-The reason why clean code is slower than procedural is because clean code priotorizes readability and maintainability. Clean code is meant for humans, CPUs don't care about that, procedural code is faster because it is arranged in a way to suits the CPU.
+As you can see, the cleaner, smaller functional code is much slower than the procedural code (almost 5 times slower)!! This was not surprising to me and it reminded me of a demo made on youtube: ["Clean" Code, Horrible Performance](https://youtu.be/tD5NrevFtbU?si=miRTsfxfUsHI1voC)
+The reason why clean code is slower than procedural is because clean code prioritizes readability and maintainability. Clean code is meant for humans, CPUs don't care about that, procedural code is faster because it is arranged in a way to suits the CPU.
